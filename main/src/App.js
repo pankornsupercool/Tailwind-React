@@ -1,10 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import SideBar from './components/SideBar'
+import Contents from './components/Contents'
+import NavBar from './components/NavBar'
 function App() {
   return (
-    <div className="grid ml-5 mt-5">
-      <SideBar/>
+    <div className="">
+      <div className="">
+        <div className="">
+
+        </div>
+      </div>
+      <NavBar/>
     </div>
   );
 }
