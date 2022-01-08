@@ -14,10 +14,12 @@ import NavBar from './components/NavBar'
 function App() {
   return (
     <div className="min-h-screen flex flex-col">
-      <div className="block relative h-20 p-6 bg-zinc-100 text-center text-blue-600 font-bold rounded shadow">
-        <div className="flex justify-start align-center content-center  ">
-        <h1 className="">Lizard</h1>
-
+      <div className=" h-20 bg-zinc-100 text-center text-blue-600 font-bold rounded shadow">
+        <div className="">
+        <div className="flex">
+        <h1 className="mt-7 ml-6 justify-center align-center content-center">Lizard</h1>
+        <h1 className="mt-7 ml-96 justify-end align-center content-center">Test</h1>
+        </div>
         </div>
 
       </div>
